@@ -1,0 +1,12 @@
+@media screen and (max-width: 1024px) {
+  .header__container {
+    max-width: 928px;
+    margin: 0 auto;
+  }
+  .lead {
+    margin-top: 48px;
+  }
+  .lead__title {
+    font-size: 2px;
+  }
+}

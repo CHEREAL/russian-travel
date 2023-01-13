@@ -1,0 +1,15 @@
+.cover {
+  margin: 0 auto;
+  margin-top: 92px;
+  background-image: url("/images/cover-trains-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1184px;
+  width: 100%;
+  min-height: 740px;
+  height: 100%;
+  transition: all 0.2s ease-in;
+}
+.cover:hover {
+  background-image: url("/images/__overlay.jpg");
+}

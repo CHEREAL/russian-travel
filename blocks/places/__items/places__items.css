@@ -1,0 +1,9 @@
+.places__items {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  max-width: 984px;
+  width: 100%;
+  display: grid;
+  row-gap: 80px;
+}
