@@ -121,14 +121,12 @@
   }
   .places__item {
     margin-bottom: 50px;
-  }
-  .places__item:last-child {
-    margin: 0;
-  }
-  .places__item {
     column-gap: 0;
     grid-template-columns: 100%;
     row-gap: 32px;
+  }
+  .places__item:last-child {
+    margin: 0;
   }
   .cover__title {
     max-width: 460px;
