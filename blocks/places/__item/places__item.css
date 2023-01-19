@@ -1,6 +1,12 @@
 .places__item {
+  margin: 0 auto;
+  max-width: 984px;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: minmax(min-content, 440px) minmax(min-content, 460px);
   column-gap: 40px;
   row-gap: 48px;
+  margin-bottom: 80px;
+}
+.places__item:last-child {
+  margin-bottom: 0;
 }
