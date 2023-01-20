@@ -10,3 +10,38 @@
 .places__item:last-child {
   margin-bottom: 0;
 }
+@media screen and (max-width: 1024px) {
+  .places__item {
+    padding: 0 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .places__item {
+    margin-bottom: 73px;
+    padding: 0 24px;
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+    column-gap: 28px;
+  }
+  .places__item:last-child {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  .places__item {
+    margin-bottom: 50px;
+    column-gap: 0;
+    grid-template-columns: 100%;
+    row-gap: 32px;
+  }
+  .places__item:last-child {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 490px) {
+  .places__item {
+    padding: 0;
+  }
+  .places__item:last-child {
+    margin: 0;
+  }
+}

@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Russian-travel</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./vendor/fonts/fonts.css" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
@@ -14,14 +12,10 @@
       <img class="header__logo" src="./images/header-logo.svg" alt="Россия" />
       <ul class="header__links">
         <li>
-          <a
-            class="header__link header__link-active header__link_lang_ru"
-            href="#"
-            >Ru</a
-          >
+          <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
         </li>
         <li>
-          <a class="header__link header__link_lang_en" href="#">En</a>
+          <a class="header__lang-link" href="#">En</a>
         </li>
       </ul>
     </header>
@@ -128,7 +122,7 @@
         />
       </section>
       <section class="places">
-        <article class="places__item">
+        <div class="places__item">
           <h2 class="places__item-title">Куршская коса</h2>
           <img
             class="places__item-image"
@@ -161,8 +155,8 @@
               прохладного моря.
             </p>
           </div>
-        </article>
-        <article class="places__item">
+        </div>
+        <div class="places__item">
           <h2 class="places__item-title">Кольский</h2>
           <img
             class="places__item-image"
@@ -195,8 +189,8 @@
               в Мурманск.
             </p>
           </div>
-        </article>
-        <article class="places__item">
+        </div>
+        <div class="places__item">
           <h2 class="places__item-title">Алтай</h2>
           <img
             class="places__item-image"
@@ -229,8 +223,8 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </article>
-        <article class="places__item">
+        </div>
+        <div class="places__item">
           <h2 class="places__item-title">Зимний Байкал</h2>
           <img
             class="places__item-image"
@@ -261,8 +255,8 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </article>
-        <article class="places__item">
+        </div>
+        <div class="places__item">
           <h2 class="places__item-title">Карелия</h2>
           <img
             class="places__item-image"
@@ -292,7 +286,7 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </article>
+        </div>
       </section>
       <section class="cover">
         <a

@@ -4,3 +4,22 @@
   font-size: 72px;
   line-height: 76px;
 }
+@media screen and (max-width: 768px) {
+  .places__item-title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .places__item-title {
+    padding: 0 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places__item-title {
+    max-width: 338px;
+    font-size: 42px;
+    line-height: 45px;
+  }
+}

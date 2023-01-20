@@ -10,3 +10,9 @@
 .places__item-paragraph:first-child {
   margin-top: 0;
 }
+@media screen and (max-width: 768px) {
+  .places__item-paragraph {
+    font-size: 16px;
+    margin-top: 26px;
+  }
+}
