@@ -9,7 +9,7 @@
     max-width: 440px;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 650px) {
   .places__item-image {
     grid-row: 3;
   }

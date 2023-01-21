@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 650px) {
   .footer {
     margin-top: 64px;
     max-width: 700px;
@@ -33,11 +33,5 @@
     padding: 0 118px 0 16px;
     align-items: flex-start;
     row-gap: 48px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer {
-    max-width: 186px;
   }
 }

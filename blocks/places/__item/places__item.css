@@ -22,7 +22,7 @@
     column-gap: 28px;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 650px) {
   .places__item {
     margin-bottom: 50px;
     column-gap: 0;
