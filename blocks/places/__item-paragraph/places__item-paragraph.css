@@ -1,7 +1,6 @@
 .places__item-paragraph {
-  margin: 0;
+  margin: 26px 0 0 0;
   padding: 0;
-  margin-top: 26px;
   max-width: 484px;
   font-weight: 400;
   font-size: 18px;
@@ -13,6 +12,6 @@
 @media screen and (max-width: 768px) {
   .places__item-paragraph {
     font-size: 16px;
-    margin-top: 26px;
+    margin-top: 25px;
   }
 }

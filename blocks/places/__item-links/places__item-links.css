@@ -4,6 +4,7 @@
   row-gap: 12px;
   justify-items: start;
 }
+
 @media screen and (max-width: 490px) {
   .places__item-links {
     padding: 0 16px;

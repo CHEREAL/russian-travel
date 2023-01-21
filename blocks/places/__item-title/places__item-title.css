@@ -18,8 +18,8 @@
 }
 @media screen and (max-width: 320px) {
   .places__item-title {
-    max-width: 338px;
-    font-size: 42px;
-    line-height: 45px;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

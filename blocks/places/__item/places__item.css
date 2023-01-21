@@ -1,11 +1,10 @@
 .places__item {
-  margin: 0 auto;
+  margin: 0 auto 80px auto;
   max-width: 984px;
   display: grid;
   grid-template-columns: minmax(min-content, 440px) minmax(min-content, 460px);
   column-gap: 40px;
   row-gap: 48px;
-  margin-bottom: 80px;
 }
 .places__item:last-child {
   margin-bottom: 0;
@@ -22,9 +21,6 @@
     grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
     column-gap: 28px;
   }
-  .places__item:last-child {
-    margin: 0;
-  }
 }
 @media screen and (max-width: 720px) {
   .places__item {
@@ -33,15 +29,9 @@
     grid-template-columns: 100%;
     row-gap: 32px;
   }
-  .places__item:last-child {
-    margin: 0;
-  }
 }
 @media screen and (max-width: 490px) {
   .places__item {
     padding: 0;
-  }
-  .places__item:last-child {
-    margin: 0;
   }
 }
