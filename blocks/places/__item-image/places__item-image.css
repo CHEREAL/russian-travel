@@ -9,13 +9,14 @@
     max-width: 440px;
   }
 }
+@media screen and (max-width: 768px) {
+  .places__item-image {
+    max-width: 340px;
+  }
+}
 @media screen and (max-width: 650px) {
   .places__item-image {
     grid-row: 3;
-  }
-}
-@media screen and (max-width: 768px) {
-  .places__item-image {
     max-width: 100%;
   }
 }
